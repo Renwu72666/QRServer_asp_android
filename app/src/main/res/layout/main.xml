@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/btn_ViewData"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#00000000"
+                android:src="@drawable/data"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="67dp"
+                android:layout_marginTop="46dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageButton
+                android:id="@+id/btn_Insert"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#00000000"
+                android:src="@drawable/insert"
+                android:scaleType="fitCenter"
+                android:layout_alignTop="@+id/btn_ViewData"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="50dp"
+                android:layout_marginEnd="50dp" />
+
+            <ImageButton
+                android:id="@+id/btn_DeleteData"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#00000000"
+                android:src="@drawable/delete"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/btn_ViewData"
+                android:layout_alignStart="@+id/btn_ViewData" />
+    </RelativeLayout>
